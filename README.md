@@ -1,12 +1,95 @@
-# React + Vite
+Smart Task Scheduler 🗂️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Role-Based Employee Task Management System built with React.js, Context API, and Tailwind CSS.
+It allows Admins to create, assign, and track tasks, while Employees can view and update their task progress in real-time.
 
-Currently, two official plugins are available:
+✨ Features
+🔑 Authentication & Role Management
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Role-based login (Admin / Employee)
 
-## Expanding the ESLint configuration
+Secure session handling with localStorage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📊 Admin Dashboard
+
+Assign tasks to employees with title, due date, category, and description
+
+Monitor task status: New, Active, Completed, Failed
+
+Get an overview of employee performance in a structured table
+
+👨‍💻 Employee Dashboard
+
+View assigned tasks with real-time status updates
+
+Track progress across different task categories
+
+Update task completion status
+
+⚡ Tech Stack
+
+React.js (Vite) – Frontend framework
+
+Context API – State management
+
+Tailwind CSS – UI styling
+
+LocalStorage – Session persistence
+
+📸 Screenshots
+Admin Dashboard
+
+Employee Dashboard
+
+🚀 Getting Started
+1. Clone the Repository
+git clone https://github.com/your-username/Smart-Task-Scheduler.git
+cd Smart-Task-Scheduler
+
+2. Install Dependencies
+npm install
+
+3. Start the Development Server
+npm run dev
+
+👥 Roles
+
+Admin
+
+Email: admin@example.com
+
+Password: 123
+
+Employee
+
+Credentials are pre-stored in context (AuthProvider.js).
+
+📂 Folder Structure
+Smart-Task-Scheduler/
+│── public/              # Static assets
+│── src/
+│   ├── components/      # Reusable UI components
+│   ├── context/         # AuthProvider & Context API
+│   ├── pages/           # Dashboard pages
+│   ├── App.js           # Main App entry
+│── package.json
+│── tailwind.config.js
+│── vite.config.js
+
+💡 Future Enhancements
+
+🔐 JWT-based authentication (instead of localStorage)
+
+🗄️ Backend integration with Node.js & MongoDB
+
+📱 Mobile responsive enhancements
+
+📊 Advanced analytics for task performance
+
+🤝 Contributing
+
+Contributions are welcome! Feel free to fork this repo and raise a pull request.
+
+📜 License
+
+This project is MIT Licensed – free to use and modify.
