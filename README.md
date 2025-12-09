@@ -1,4 +1,6 @@
 Smart Task Scheduler 🗂️
+Live Link: https://smarttaskscheduler.netlify.app/
+
 
 A Role-Based Employee Task Management System built with React.js, Context API, and Tailwind CSS.
 It allows Admins to create, assign, and track tasks, while Employees can view and update their task progress in real-time.
